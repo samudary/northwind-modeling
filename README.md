@@ -18,3 +18,8 @@ We use the following to specify a materialization within a model:
 
 `dbt compile`
 `dbt run`
+`dbt run --models [Specific Model]`
+
+Run with a specific target defined in my `.dbt/profiles.yml` file. This defaults to a `dev` profile. Running on prod creates a different schema as defined in the profile.
+
+`dbt run --target prod`
