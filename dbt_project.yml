@@ -1,0 +1,7 @@
+name: "northwind_data_modeling"
+version: "0.0.1"
+
+# Profile to use when running dbt models configured in .dbt/profiles.yml
+profile: "northwind_analytics"
+
+source-paths: ["models"]
